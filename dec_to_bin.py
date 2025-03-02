@@ -48,8 +48,5 @@ def turn_to_neg(num):
     neg_bin2 = neg_bin2[::-1]
     print(neg_bin2)
 
-turn_to_neg(42)
-
-
-
+turn_to_neg(int(input("enter number: ")))
 
